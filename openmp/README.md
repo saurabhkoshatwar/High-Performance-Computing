@@ -1,5 +1,5 @@
 # OpenMp 
 
 # Steps to run
-gcc -fopenmp <filename>.c
-./a.out
+<p>Compile: gcc -fopenmp <filename>.c</p>
+<p>Execute: ./a.out</a>
