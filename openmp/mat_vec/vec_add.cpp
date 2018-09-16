@@ -34,9 +34,9 @@ int main()
 
     cout<<"total_time_serial- "<<total_time_serial<<endl;
 
-    for(int i=1;i<=4;i++)
+    for(int k=1;k<=4;k++)
     {
-            omp_set_num_threads(i);
+            omp_set_num_threads(k);
 
             start = omp_get_wtime();
             #pragma omp parallel 
